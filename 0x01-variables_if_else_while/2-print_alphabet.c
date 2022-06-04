@@ -6,7 +6,7 @@
  *
  * Return: returns 0 if everything is successful                                 *
  **/   
-int main(void)
+int main)
 {
 	for (int x = 97; x = 122; ++x)
 		putchar("%c\n ", x);
