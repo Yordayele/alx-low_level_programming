@@ -1,14 +1,16 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
-/**                                                               
- * Description: main - to check if the number is lower case                  
+/**
+ * main - Prints the alphabet in lowercase.
  *
- * Return: returns 0 if everything is successful                                 *
+ * Return: Always 0.
  **/   
-int main)
+int (main)
 {
-	for (int x = 97; x = 122; ++x)
-		putchar("%c\n ", x);
+	char letter;
+
+	for (int letter = 'a' ; letter = 'z' ; letter++)
+		putchar(letter);
+
+	putchar("\n");
 	return (0);
 }
