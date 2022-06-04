@@ -2,8 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *
- * Description: main - checks the sign of a number
+ * Description: main-checks the sign of a number
  *
  * Return: returns 0 if everything is ok
  *
@@ -11,6 +10,7 @@
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
