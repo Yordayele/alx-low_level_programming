@@ -11,11 +11,11 @@ int main(void)
 
 	for (x = 'a' ; x <= 'z' ; x++)
 	{
-		printchar(x);
-		printchar("\n");
+		putchar(x);
+		putchar("\n");
 	}
 	for  (x = 'A' ; x <= 'Z' ; x++)
 	{
-		printchar(x);
-		printchar("\n");
+		putchar(x);
+		putchar("\n");
 		return (0);
