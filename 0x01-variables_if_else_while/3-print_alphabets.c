@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - print the alphabet in lowercase, and then in uppercase.
+ * main - prints the alphabet in lowercase, and then in uppercase.
  *
  * Return: Always 0.
  */
@@ -10,8 +10,8 @@ int main(void)
 
 	for (letter = 'a' ; letter <= 'z' ; letter++)
 		putchar(letter);
-	for (letter = 'A' ; letter <=  'Z' ; letter++)
-		purchar(letter);
+	for (letter = 'A' ; letter <= 'Z' ; letter++)
+		putchar(letter);
 	putchar('\n');
 	return (0);
 }
