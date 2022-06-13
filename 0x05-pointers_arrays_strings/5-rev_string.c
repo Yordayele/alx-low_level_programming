@@ -20,7 +20,7 @@ len = len - 1;
 while (len2 <= len)
 {
 tmp = s[len2];
-s[len2]  = s[len]
+s[len2]  = s[len];
 s[len] = tmp;
 len2++;
 len--;
